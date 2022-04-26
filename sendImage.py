@@ -1,6 +1,7 @@
 import requests
 import IDs
 
+
 def send_photo(chat_id, file_opened):
     method = "sendPhoto"
     params = {'chat_id': chat_id}
